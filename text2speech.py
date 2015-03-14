@@ -3,7 +3,7 @@ import os
 
 root = Tk()
 root.title("Text2Speech")
-T = Text(root, height=1, width=30)
+T = Text(root, height=5, width=30)
 T.pack()
 
 def speak():
